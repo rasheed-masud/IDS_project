@@ -1,0 +1,39 @@
+{
+  "features": [
+    "TotalSteps",
+    "TotalDistance",
+    "VeryActiveDistance",
+    "ModeratelyActiveDistance",
+    "LightActiveDistance",
+    "SedentaryActiveDistance",
+    "VeryActiveMinutes",
+    "FairlyActiveMinutes",
+    "LightlyActiveMinutes",
+    "SedentaryMinutes"
+  ],
+  "model_type": "LinearRegression",
+  "metrics": {
+    "linear": {
+      "mae": 302.1939911667811,
+      "rmse": 396.877582082357,
+      "r2": 0.7528004970670026
+    },
+    "rf": {
+      "mae": 352.75163013252984,
+      "rmse": 461.1979047444615,
+      "r2": 0.6661824940975696
+    }
+  },
+  "feature_means": {
+    "TotalSteps": 6546.562363238512,
+    "TotalDistance": 4.663522971541309,
+    "VeryActiveDistance": 1.1808971532414656,
+    "ModeratelyActiveDistance": 0.4786433251880321,
+    "LightActiveDistance": 2.8901969365433215,
+    "SedentaryActiveDistance": 0.0019037198821486169,
+    "VeryActiveMinutes": 16.62363238512035,
+    "FairlyActiveMinutes": 13.070021881838075,
+    "LightlyActiveMinutes": 170.07002188183807,
+    "SedentaryMinutes": 995.2822757111597
+  }
+}
